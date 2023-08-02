@@ -1,0 +1,40 @@
+:root {
+  --darkBg: #080b16;
+  --lightBg: #f9f9f9;
+  --yellowFont: #f0de36;
+  --borderDark: #161d38;
+  --borderLight: #ddd;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 9999;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  border-top: 1px solid var(--borderDark);
+  background: var(--darkBg);
+}
+.logo-footer h3 {
+  font-weight: 600;
+  font-size: 22px;
+}
+.logo-footer b {
+  color: var(--yellowFont);
+}
+.direitos-footer {
+  font-size: 16px;
+  font-weight: 400;
+}
+.social-footer ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.social-footer a {
+  color: var(--lightBg);
+  font-size: 18px;
+}

@@ -1,0 +1,49 @@
+:root {
+  --darkBg: #080b16;
+  --lightBg: #f9f9f9;
+  --yellowFont: #f0de36;
+  --borderDark: #161d38;
+  --borderLight: #ddd;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+  border-bottom: 1px solid var(--borderDark);
+  background: var(--darkBg);
+}
+.box-logo h1 {
+  color: var(--lightBg);
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.box-logo b {
+  color: var(--yellowFont);
+}
+.box-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box-menu a {
+  color: var(--lightBg);
+  font-weight: 500px;
+  font-size: 16px;
+}
+.box-account button {
+  padding: 8px 30px;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 3px;
+  color: var(--darkBg);
+  background-color: var(--lightBg);
+  font-weight: 600;
+  font-size: 17px;
+}
